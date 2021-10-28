@@ -6,13 +6,13 @@
    </head>
    <body>
       <center>
-         <h1>CRUD dengan CodeIgniter</h1>
+         <h1>Menambah Data Identitas Mahasiswa menggunakan CRUD dengan CodeIgniter</h1>
          <h3>Form Tambah Data Identitas Baru</h3>
       </center>
          <form action="<?php echo base_url() . 'crud/tambah_aksi';?>" method="post">
-            <table style="margin:20px auto;">
+            <table style="margin:30px auto;">
                <tr>
-                  <td>Nim</td>
+                  <td>NIM</td>
                   <td>:</td>
                   <td><input type="text" name="nim" id=""></td>
                </tr>

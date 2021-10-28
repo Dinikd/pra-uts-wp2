@@ -6,12 +6,12 @@
    </head>
    <body>
       <center>
-         <h1>Sistem CRUD dengan CodeIgniter</h1>
+         <h1>Daftar Identitas Mahasiswa Memakai Sistem CRUD dengan CodeIgniter</h1>
       </center>
       <center><?php echo anchor('crud/tambah', 'Tambah Data Identitas'); ?></center>
-      <table style="margin:30px auto;" border="1">
+      <table style="margin:30px auto;" border="3">
          <tr>
-            <th>Nim</th>
+            <th>NIM</th>
             <th>Nama</th>
             <th>Kelas</th>
             <th>Alamat</th>

@@ -6,14 +6,14 @@
    </head>
    <body>
       <center>
-         <h1>Crud dengan CodeIgniter</h1>
+         <h1>Mengedit Data Identitas Mahasiswa menggunakan Crud dengan CodeIgniter</h1>
          <h3>Form Edit Data Identitas</h3>
       </center>
       <?php foreach ($mhs as $u) { ?>
          <form action="<?php echo base_url() . 'crud/update'?>" method="post">
-            <table style="margin:20px auto;">
+            <table style="margin:30px auto;">
                 <tr>
-                  <td>Nim</td>
+                  <td>NIM</td>
                   <td>:</td>
                   <td><input type="text" name="nim" value="<?php echo $u->nim ?>"></td>
                </tr>
